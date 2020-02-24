@@ -12,7 +12,7 @@ models:
     tests:
     - not_null
     - unique
-- name: adwords_click_performance_xf
+- name: adwords_click_performance
   columns:
   - name: id
     tests:
