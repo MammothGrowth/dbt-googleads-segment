@@ -1,0 +1,20 @@
+version: 2
+models:
+- name: adwords_ad_performance_xf
+  columns:
+  - name: id
+    tests:
+    - not_null
+    - unique
+- name: adwords_campaign_performance_xf
+  columns:
+  - name: id
+    tests:
+    - not_null
+    - unique
+- name: adwords_click_performance_xf
+  columns:
+  - name: id
+    tests:
+    - not_null
+    - unique
